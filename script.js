@@ -30,5 +30,18 @@ console.log('A nota 3 é: ', nota3);
 
 console.log ('A média da estudante é: ', media);
 
+    if (media >= 7) {
+        console.log('Aprovado');
+    }
+
+    else if (media < 7 && media >= 5){
+        console.log('Recuperação');
+    }
+
+    else {
+        console.log('Reprovado');
+    }
+
+
 console.log ('Fim do programa');
 
