@@ -19,9 +19,9 @@ function mediaAluno() {
     //declaração de variáveis
     //const para variáveis que não variam e let para variáveis que  variam (var é sem escopo global) - var (escopo global) - escopo fora do bloco. let (escopo local) - escopo restrito ao bloco. const (não permitindo reatribuição e nem redeclaração) - constante
 
-    const nota1 = parseInt(prompt('Digite a nota 1:'));
-    const nota2 = parseInt(prompt('Digite a nota 2:'));
-    const nota3 = parseInt(prompt('Digite a nota 3:'));
+    const nota1 = parseInt(document.getElementById('nota1').value);
+    const nota2 = parseInt(document.getElementById('nota2').value);
+    const nota3 = parseInt(document.getElementById('nota3').value);
 
 
 
